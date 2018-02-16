@@ -45,6 +45,7 @@ app.use(passport.session());
 require('./config/passport')(passport);
 
 
+
 //allows the use of users in the route folder
 app.use('/users', users);
 
@@ -55,5 +56,5 @@ app.get('/', (req, res) => {
 
 // starts the server
 app.listen(port, () => {
-    console.log('Server started on port '+port);
+    console.log('Server on port '+port);
 });
