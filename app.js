@@ -52,7 +52,12 @@ app.use('/users', users);
 //route to homepage
 app.get('/', (req, res) => {
     res.send('Invaild Endpoint');
-})
+});
+
+// app.get('*', (req, res => {
+//     res.sendFile(path.join(__dirname, 'front-end/index.html'));
+// }));
+
 
 // starts the server
 app.listen(port, () => {

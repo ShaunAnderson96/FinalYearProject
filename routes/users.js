@@ -50,7 +50,7 @@ router.post('/authenticate', (req, res, next) => {
                 //send this responds if pword and username matches
                 res.json({
                     success: true,
-                    token: 'jwt '+ token,
+                    token: 'Bearer '+ token,
                     user: {
                         id: user._id,
                         name: user.name,
