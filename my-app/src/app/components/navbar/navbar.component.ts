@@ -28,7 +28,7 @@ export class NavbarComponent implements OnInit {
       cssClass:'alert-success',
       timeout: 5000
     });
-    this.router.navigate(['/login']);
+    this.router.navigate(['/app-login']);
     return false;
   }
 

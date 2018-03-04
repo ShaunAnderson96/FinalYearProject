@@ -1,7 +1,7 @@
 {
-  "name": "meanauthapp",
+  "name": "soundfit",
   "version": "1.0.0",
-  "description": "mean stack auth app",
+  "description": "create music suggestions",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,23 @@
     "stop": "node app"
   },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
+    "angular2-spotify": "*",
     "bcryptjs": "*",
-    "cors": "*",
-    "jsonwebtoken": "*",
     "body-parser": "*",
+    "cookie-parser": "*",
+    "cors": "*",
+    "es6-promise": "*",
+    "reflect-metadata": "*",
+    "es6-shim": "^0.35.3",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
     "passport": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "*",
+    "querystring": "*",
+    "request": "*",
+    "rxjs": "^5.5.1",
+    "zone.js": "^0.8.20"
   },
   "author": "Shaun Anderson",
   "license": "ISC"

@@ -1,0 +1,5 @@
+<link rel='stylesheet' id='roots_prism-css-css'  href='https://developer.spotify.com/wp-content/themes/sp-wp-theme/library/css/prism.min.css?73069f87e07c684e46f0af8ab5e443dd' type='text/css'>
+<h1>Success, you have logged in!</h1>
+<h2>Please login to Spotify to continue...</h2>
+    <button class="btn btn-primary btn-sm col-6" id="btn-comment" *ngIf="!user" (click)="login()">Login to Spotify</button>
+    <p *ngIf="!!user">You are logged in as: {{user.display_name}}</p>
