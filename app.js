@@ -67,8 +67,8 @@ app.get('/', (req, res) => {
 
 
 
-// var client_id = '23e431d3924543c3b3417b4ecc27cbcb'; // Your client id
-// var client_secret = 'c06c88d08e6c443099346b62586714ce'; // Your secret
+// var client_id = 'clientid'; // Your client id
+// var client_secret = 'secret'; // Your secret
 // var redirect_uri = 'http://localhost:4200/callback'; // Your redirect uri
 
 // // /**
